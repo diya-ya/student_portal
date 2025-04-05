@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Welcome Page */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.welcome-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+.welcome-card h1 {
+    margin-bottom: 10px;
+}
+
+.welcome-card .highlight {
+    color: #4b0082;
+}
+
+.welcome-card p {
+    color: #555;
+}
+
+.go-button {
+    margin-top: 20px;
+    background-color: #4b0082;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.go-button:hover {
+    background-color: #5d0db8;
+}
+
+/* Student Page */
+.student-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.student-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.student-card input {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.student-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-card button:hover {
+    background-color: #5d0db8;
+}
+
+.result-card {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4b0082;
+    border-radius: 8px;
+}
+
+.result-card p {
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+.add-form {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.add-form input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.add-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: #5d0db8;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5d0db8;
+  }
